@@ -1,0 +1,217 @@
+body{
+    background-color: #e6f1fb;
+}
+.page{
+    padding: 0 10vw;
+    height: 100vh;
+}
+.Page1{
+    text-align: justify;
+    /* line-height: 50px; */
+    margin:5px 1px 15px 2px ;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #D9ECFE;
+    border-radius: 15px;
+}
+.Page2{
+    text-align: justify;
+    /* line-height: 50px; */
+    margin:5px 1px 15px 1px ;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #D9ECFE;
+    border-radius: 15px;
+}
+.Page3{
+    text-align: justify;
+    /* line-height: 50px; */
+    margin:5px 1px 5px 1px ;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #D9ECFE;
+    border-radius: 15px; 
+}
+.Page4{
+    text-align: justify;
+    /* line-height: 50px; */
+    margin:5px 1px 5px 1px ;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #D9ECFE;
+    border-radius: 15px; 
+}
+.Page5{
+    text-align: justify;
+    /* line-height: 50px; */
+    margin:5px 1px 5px 1px ;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #D9ECFE;
+    border-radius: 15px; 
+}
+
+.Page1,.Page2,.Page3,.Page4,.Page5{
+    width: 70vw;
+}
+.First-Name{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 49vw; 
+    font-size: 0.9vw; 
+    transition: all; 
+    transition-duration: 0.3s;
+}
+.First-Name:focus{
+    border-bottom: 2px solid orange;
+}
+
+.heading{
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(216, 216, 236);
+    background-color: #626FE6;
+    width: 50vw;
+    box-shadow: 3px 3px 6px rgb(67, 62, 62);
+    height: fit-content;
+    border-radius: 1vw;
+    margin: 1vw 13.5vw;
+}
+
+.fname{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 63vw;
+    height: fit-content;
+}
+.lname{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 65vw;
+    height: fit-content;
+    
+}
+.Gender{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 24.2vw;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28vw;
+}
+.Curently{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28vw;
+}
+.TextSize{
+    
+    font-size: 1vw;
+}
+.TextSize2{
+    
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-style: bold;
+}
+.TextSize3{
+    
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-style: bold;
+}
+.TextSize4{
+    
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-style: bold;
+    font: 1.3em sans-serif;
+    
+}
+.textSizeArea{
+    font-size: 1.4vw;
+} 
+.TextSizeProfessional{
+    
+    font-size: 1.4vw;
+}
+.TextSizeMember{
+    font-size: 1.4vw;
+}
+.TextSizeAwards{
+    font-size: 1.3vw;
+    width: 15vw;
+}
+.Aff{
+    width: 11vw;
+    font-weight: 600;
+    /* align-self: end; */
+}
+
+h3{
+    margin: 0;
+}
+.bottom1{
+    margin-bottom: 30px;
+}
+.years{
+    justify-content: space-between;
+    align-items: center;
+    width: 40.8vw;
+}
+.textwidth{
+    width:20vw ;
+    
+}
+.textwidth1{
+    width: 24vw;
+}
+.textwidth2{
+    width: 24vw
+} 
+.textwidth3{
+    width: 14vw;
+}
+.textwidth4{
+    width: 12vw;
+}
+
+.Area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+}
+.Professional{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+}
+.Member{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+}
+.Accomplishments{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 2vw;
+    width: 63vw;
+    height: fit-content;
+}
+input[type="checkbox"]{
+    width: 1vw;
+    height: 1vw;
+}
